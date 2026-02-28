@@ -167,3 +167,68 @@ footer p {
         gap: 10px;
     }
 }
+
+/* Logo Section */
+.logo-area {
+display: flex;
+align-items: center;
+gap: 15px;
+}
+
+.school-logo {
+width: 60px;
+height: 60px;
+object-fit: contain;
+}
+
+.logo-text h2 {
+font-size: 18px;
+margin-bottom: 3px;
+}
+
+.logo-text p {
+font-size: 12px;
+opacity: 0.8;
+}
+
+/* Principal Section */
+.principal-section {
+display: grid;
+grid-template-columns: 1fr 2fr;
+gap: 30px;
+align-items: center;
+}
+
+.principal-image img {
+width: 100%;
+max-width: 300px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.principal-message h2 {
+margin-bottom: 15px;
+color: #0b2c5f;
+}
+
+@media(max-width: 768px){
+.principal-section {
+grid-template-columns: 1fr;
+text-align: center;
+}
+}
+
+/* Highlight Quote */
+.highlight-quote {
+background: #f4c430;
+padding: 20px;
+margin: 20px 0;
+font-style: italic;
+font-weight: 500;
+border-left: 5px solid #0b2c5f;
+}
+
+/* Active Menu Highlight */
+nav ul li a.active {
+color: #f4c430;
+}
